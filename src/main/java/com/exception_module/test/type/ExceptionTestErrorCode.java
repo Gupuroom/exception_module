@@ -6,7 +6,7 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum TestErrorCode implements CommonErrorCode {
+public enum ExceptionTestErrorCode implements CommonErrorCode {
     GET_TEST_ERROR("301","GET_TEST_ERROR"),
     POST_TEST_ERROR("302","POST_TEST_ERROR"),
     DELETE_TEST_ERROR("303","DELETE_TEST_ERROR"),
